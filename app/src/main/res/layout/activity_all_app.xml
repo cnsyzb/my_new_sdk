@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_allApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="所有App"/>
+
+
+        <Button
+            android:id="@+id/btn_systemApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="系统App"/>
+
+
+        <Button
+            android:id="@+id/btn_thirdApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="第三方App"/>
+
+
+        <Button
+            android:id="@+id/btn_sdApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SD App"/>
+
+    </LinearLayout>
+    <ListView android:id="@+id/listviewApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" ></ListView>
+</LinearLayout>
